@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stydy with suraj</title>
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <style>
+    body{
+      background: linear-gradient(90deg, #283048, #859398);
+    }
+  .cont{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .imm{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .ss{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  /* button{
+    margin-top: 30px;
+  } */
+  footer{
+    box-shadow: 2px 2px 3px black;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    color: #fff;
+    padding: 10px;
+  }
+  </style>
+ </head>
+ <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-titanium">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu text-white">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-white" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-dark text-white " style="--bs-btn-margin-y: .25rem" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/18264716/pexels-photo-18264716.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/7775639/pexels-photo-7775639.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/3577561/pexels-photo-3577561.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section>
+    <div class="cont">
+      <div class="imm">
+        <img src="https://i.ytimg.com/vi/gCkPJTSZ9mU/maxresdefault.jpg" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap 3" style="width: 12rem;">
+         <h2 class="text-wrap fs-5"> C++ FULL NEW COURSE </h2>
+         <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+        </div>
+      </div>
+      <div class="imm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGN2riBHHHTAr_Ajbc9ucGfC9sHUKlA1j_AA&s" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> WEB DEV FULL COURSE </h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+      <div class="imm">
+        <img src="https://i.ytimg.com/vi/VNb_LawBBWU/maxresdefault.jpg" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> GEN AI COURSE </h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+      <div class="imm">
+        <img src="https://i.ytimg.com/vi/vz1RlUyrc3w/hqdefault.jpg" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> REACT JS #1 LESSON</h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="cont">
+      <div class="imm">
+        <img src="https://i.ytimg.com/vi/G9VbtcsPKT0/hqdefault.jpg" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> FULLSTACK PROJECTS</h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+      <div class="imm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjXhDr9-tWtIW51CmHUOJP_2WlXqzmR_i2qg&s" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> AI/ML OR WEB DEV</h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+      <div class="imm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHtXlslt367TYHbF7bLzX43znFMET-2DVatA&s" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> BUILD YOUR OWN</h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+      <div class="imm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNsxer_Oi7Jl3RvHkhZJ20KQG-GnU6vW6QjQ&s" class="ss" alt="">
+        <div class="badge text-bg-white text-black text-wrap fs-3" style="width: 12rem;">
+          <h2 class="text-wrap fs-5"> WHAT IS (AWS)</h2>
+          <button type="submit" class="btn bg-primary text-wrap btn-small fs-5">WATCH NOW</button>
+         </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 All rights reseved.</p>
+    <p>This company name is (MAI PVT) this company have all type IT relate work</p>
+    <p>content number and email address</p>
+    <p>MOBILE NO. 123456789</p>
+    <p>EMAIL address :suraj@email.com</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+ </html>
